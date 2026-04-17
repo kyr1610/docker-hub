@@ -45,6 +45,6 @@ jobs:
         sed -i "16s|.*|      - image: $DOCKER_REPOSITORY:$GIT_HASH|g" deployment.yaml
         git add .
         git config --global user.email "kimyr1610@gmail.com"
-        git config --global user.name "kkyr1610"
+        git config --global user.name "kyr1610"
         git commit -am "Inject Tag"
         git push
